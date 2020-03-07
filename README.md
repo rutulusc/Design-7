@@ -1,6 +1,6 @@
 # Design-7
 
-## Problem1 LFU Cache
+## Problem126 LFU Cache
 
 Design and implement a data structure for Least Frequently Used (LFU) cache. It should support the following operations: get and put.
 
@@ -11,7 +11,6 @@ put(key, value) - Set or insert the value if the key is not already present. Whe
 Example:
 
 LFUCache cache = new LFUCache( 2 /* capacity */ );
-
 
 cache.put(1, 1);
 
@@ -31,24 +30,7 @@ cache.get(1);       // returns -1 (not found)
 
 cache.get(3);       // returns 3
 
-cache.get(4);       // returns 4## Problem2 H-Index (https://leetcode.com/problems/h-index/)
-
-Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index.
-
-According to the definition of h-index on Wikipedia: "A scientist has index h if h of his/her N papers have at least h citations each, and the other N − h papers have no more than h citations each."
-
-Example:
-
-Input: citations = [3,0,6,1,5]
-
-Output: 3 
-
-Explanation: [3,0,6,1,5] means the researcher has 5 papers in total and each of them had 
-             received 3, 0, 6, 1, 5 citations respectively. 
-             Since the researcher has 3 papers with at least 3 citations each and the remaining 
-             two with no more than 3 citations each, her h-index is 3.
-
-Note: If there are several possible values for h, the maximum one is taken as the h-index.
+cache.get(4);       // returns 4##
 
 ## Problem2 Snake game (https://leetcode.com/problems/design-snake-game/)
 
